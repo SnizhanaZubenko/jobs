@@ -1,0 +1,108 @@
+/* Custom Styles */
+
+*{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+	background-image: url("https://cdn6.f-cdn.com/contestentries/1562160/33331481/5d4ed0c6cacac_thumb900.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+
+
+h2{
+	margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+li{
+	font-family: fantasy;
+	color: purple;
+	font-size: 2rem;
+}
+
+h1{
+	font-family: capitalize;
+	font-size: 2.5rem;
+	text-shadow: 1px 1px 1px blue,
+               2px 2px 1px blue;
+}
+
+p {
+  font-size: 2rem;
+ }
+
+ a {
+  font-size: 2rem;
+  color: purple;
+ }
+
+img{
+	margin-bottom: 15px;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+  background-color: purple;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: purple;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: purple;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: purple;
+  color: black;
+}
+
+
+/* Sticky footer styles */
+
+html, body {
+	height: 100%;
+
+.wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+.footer {
+	height: 60px;
+	padding-top: 20px;
+	background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+div.panel{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+/* reduce container with*/
+@media (min-width: 1200px){
+	.container {
+    	width: 1000px;
+	}
+}
